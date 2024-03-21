@@ -1,4 +1,5 @@
 const Navbar = () => {
+  
   return (
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -39,4 +40,5 @@ const Navbar = () => {
       </nav>
     </div>);
 }
+
 export default Navbar;

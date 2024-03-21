@@ -1,3 +1,4 @@
+import MainComponent from '../components/MainComponent';
 import Navbar from '../components/Navbar';
 import '../css/Home.css';
 
@@ -8,9 +9,8 @@ const Home = () => {
             <div>
                 <Navbar/>
             </div>
-            <div className="p-3 text-[30px] h-screen homeimage">
-                <img className='w-[200px]' src="https://i.ibb.co/Yk9f6ZH/logo.png" alt="fuxk you" />
-                Hi bro
+            <div className="p-3 text-[30px] h-screen homeimage bg-repeat-y">
+                <MainComponent/>
             </div>
 
         </div>
