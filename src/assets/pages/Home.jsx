@@ -6,7 +6,7 @@ import '../css/Home.css';
 const Home = () => {
     return (
         <div>
-            <div className="p-3 text-[30px] h-screen homeimage bg-repeat-y">
+            <div className="p-3 text-[30px]  homeimage bg-repeat-y">
                 <MainComponent/>
             </div>
 
