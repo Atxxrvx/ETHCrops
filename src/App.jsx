@@ -6,10 +6,8 @@ function App() {
 
   return (
     <>
-
-      <div className="p-3 text-[30px] h-screen homeimage">
-        <Navbar />
-      </div>
+    <Navbar />
+    <Home />
     </>
   )
 }

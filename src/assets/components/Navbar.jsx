@@ -4,8 +4,9 @@ import Avatar from '@mui/material/Avatar';
 import AccountMenu from './profile';
 
 const Navbar = () => {
+  
   return (
-    <nav className="bg-transparent bg-opacity-50 fixed top-0 w-full pt-6 z-50 flex justify-center items-center backdrop-blur-sm pb-6 mb-10 shadow">
+    <nav className="bg-transparent bg-opacity-50 fixed top-0 w-full pt-6 z-50 flex justify-center items-center backdrop-blur-sm pb-6 mb-[100px] shadow ">
         <div className="p-3 text-[30px]   ">
                 <img className='w-[300px]' src="https://i.ibb.co/Yk9f6ZH/logo.png" alt="ETHCrops" />
             </div>
